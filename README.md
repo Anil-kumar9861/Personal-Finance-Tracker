@@ -18,7 +18,6 @@ Deliver dynamic financial summaries and visual analytics
 
 Maintain user-specific data isolation
 
-🏢 Key Capabilities
 🔐 User Management
 
 Secure user registration and login
@@ -117,25 +116,30 @@ One User → Multiple Budget entries
 All financial records are linked through foreign key relationships.
 
 🔌 REST API Endpoints
+
 Authentication
+
 POST /api/register
 POST /api/login
+
 Income
 POST /api/income/{email}
 GET  /api/income/{email}
+
 Expense
 POST /api/expenses/{email}
 GET  /api/expenses/{email}
+
 Budget
 POST /api/budget/{email}
 GET  /api/budget/{email}
+
 ⚙️ Deployment & Setup
 Clone Repository
 git clone <repository-url>
 Configure Database
 
 Update application.properties:
-
 spring.datasource.url=jdbc:postgresql://localhost:5432/finance_db
 spring.datasource.username=your_username
 spring.datasource.password=your_password
@@ -145,6 +149,7 @@ mvn spring-boot:run
 Access the application:
 
 http://localhost:8082/login.html
+
 📸 Screenshots
 
 📌 Replace the image paths below with actual screenshots inside your repository (recommended folder: /screenshots).

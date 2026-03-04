@@ -8,61 +8,61 @@ The application follows a layered architecture using Spring Boot for backend ser
 
 ## Objectives
 
-				Provide users with clear visibility of their financial activities
+	Provide users with clear visibility of their financial activities
+			
+	Enable structured income and expense management
 				
-				Enable structured income and expense management
+	Support category-based budget tracking
 				
-				Support category-based budget tracking
+	Deliver dynamic financial summaries and visual analytics
 				
-				Deliver dynamic financial summaries and visual analytics
-				
-				Maintain user-specific data isolation
+	Maintain user-specific data isolation
 
 ## 🔐 User Management
 			
-			 Secure user registration and login
+	Secure user registration and login
 			 
-			 Session-based access control
+    Session-based access control
 			 
-			 User-specific financial data isolation
+	 User-specific financial data isolation
 
 ## 💰 Income Management
 
-				Record income with source, date, and frequency
+	Record income with source, date, and frequency
 				
-				Automatic total income calculation
+	Automatic total income calculation
 				
-				Structured tabular display
+	Structured tabular display
 
 ## 💳 Expense Management
 
-				Record categorized expenses
+	Record categorized expenses
 				
-				Description-based tracking
+	Description-based tracking
 				
-				Real-time total expense calculation
+	Real-time total expense calculation
 				
-				Table-based data representation
+	Table-based data representation
 
 ## 📊 Financial Dashboard
 
-				Total Income
+	Total Income
 				
-				Total Expense
+	Total Expense
 				
-				Available Balance
+	Available Balance
 				
-				Category-wise expense pie chart
+	Category-wise expense pie chart
 				
-				Budget tracking indicators
+	Budget tracking indicators
 
 ## 📈 Budget Monitoring
 
-				Monthly category budget configuration
+	Monthly category budget configuration
 				
-				Visual progress tracking
+	Visual progress tracking
 				
-				Budget exceeded alerts
+	Budget exceeded alerts
 
 
 ## 🏗️ System Architecture
@@ -71,70 +71,70 @@ The application follows a 3-Tier Architecture:
 
 ### 1️⃣ Presentation Layer
 
-				HTML
+	HTML
 				
-				CSS
+	CSS
 				
-				JavaScript
+	JavaScript
 				
-				Chart.js
+	Chart.js
 
 ### 2️⃣ Business Logic Layer
 
-				Spring Boot
+	Spring Boot
 				
-				RESTful APIs
+	RESTful APIs
 				
-				Service-based processing
+	Service-based processing
 
 ### 3️⃣ Data Layer
 
-				PostgreSQL
+	PostgreSQL
 				
-				JPA/Hibernate ORM
+	JPA/Hibernate ORM
 				
-				Relational mapping
+	Relational mapping
 
 
 ## 🗄️ Database Structure
 Core Entities
 
-				User
+	User
 				
-				Income
+	Income
 				
-				Expense
+	Expense
 				
-				Budget
+	Budget
 				
-				Relationships
+	Relationships
 				
-				One User → Multiple Income records
+	One User → Multiple Income records
 				
-				One User → Multiple Expense records
+	One User → Multiple Expense records
 				
-				One User → Multiple Budget entries
+	One User → Multiple Budget entries
 				
-				All financial records are linked through foreign key relationships.
+	All financial records are linked through foreign key relationships.
 
 
 
 ## ⚙️ Deployment & Setup
 
-				Clone Repository
-				git clone <repository-url>
-				Configure Database
+	Clone Repository
+	git clone <repository-url>
+	Configure Database
 				
-				Update application.properties:
-				spring.datasource.url=jdbc:postgresql://localhost:5432/finance_db
-				spring.datasource.username=your_username
-				spring.datasource.password=your_password
-				Run Backend
-				mvn spring-boot:run
+	Update application.properties:
+	spring.datasource.url=jdbc:postgresql://localhost:5432/finance_db
+	spring.datasource.username=your_username
+	spring.datasource.password=your_password
+	Run Backend
+	mvn spring-boot:run
 				
-				Access the application:
+	Access the application:
 				
-				http://localhost:8082/login.html
+	http://localhost:8082/login.html
 
 
 ## 📸 Screenshots
@@ -164,33 +164,33 @@ Core Entities
 
 ## 🔐 Security Considerations
 
-				User-specific data filtering implemented at backend
+	User-specific data filtering implemented at backend
 				
-				API-based data handling
+	API-based data handling
 				
-				Planned enhancement: JWT-based authentication
+	Planned enhancement: JWT-based authentication
 
 
 ## 🚀 Future Roadmap
 
-				JWT Security Integration
+	JWT Security Integration
 				
-				Report Export (PDF/Excel)
+	Report Export (PDF/Excel)
 				
-				Recurring Transactions Automation
+	Recurring Transactions Automation
 				
-				Cloud Deployment
+	Cloud Deployment
 				
-				Mobile Responsive Enhancement
+	Mobile Responsive Enhancement
 				
-				AI-based financial insights
+	AI-based financial insights
 
 
 ## 👨‍💻 Author
 
-				Ch Anil Kumar
+	Ch Anil Kumar
 
 
 ## 📄 License
 
-				This project is developed for academic and portfolio purposes.
+	This project is developed for academic and portfolio purposes.

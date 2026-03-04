@@ -1,12 +1,12 @@
-# Personal Finance Tracker
+# 💼 Personal Finance Tracker
 
- ## Overview
+ ## 📖 Overview
 
 Personal Finance Tracker is a full-stack web application designed to help users efficiently manage their personal finances. The system enables structured tracking of income, expenses, and budgets while providing real-time financial summaries and visual insights.
 
 The application follows a layered architecture using Spring Boot for backend services and PostgreSQL for persistent data storage.
 
-## Objectives
+## 🎯 Objectives
 
 Provide users with clear visibility of their financial activities
 
@@ -18,7 +18,7 @@ Deliver dynamic financial summaries and visual analytics
 
 Maintain user-specific data isolation
 
-## User Management
+## 🔐 User Management
 
 Secure user registration and login
 
@@ -26,7 +26,7 @@ Session-based access control
 
 User-specific financial data isolation
 
-## Income Management
+## 💰 Income Management
 
 Record income with source, date, and frequency
 
@@ -34,7 +34,7 @@ Automatic total income calculation
 
 Structured tabular display
 
-## Expense Management
+## 💳 Expense Management
 
 Record categorized expenses
 
@@ -44,7 +44,7 @@ Real-time total expense calculation
 
 Table-based data representation
 
-## Financial Dashboard
+## 📊 Financial Dashboard
 
 Total Income
 
@@ -56,7 +56,7 @@ Category-wise expense pie chart
 
 Budget tracking indicators
 
-## Budget Monitoring
+## 📈 Budget Monitoring
 
 Monthly category budget configuration
 
@@ -64,7 +64,7 @@ Visual progress tracking
 
 Budget exceeded alerts
 
-## System Architecture
+## 🏗️ System Architecture
 
 The application follows a 3-Tier Architecture:
 
@@ -94,7 +94,7 @@ JPA/Hibernate ORM
 
 Relational mapping
 
-## Database Structure
+## 🗄️ Database Structure
 Core Entities
 
 User
@@ -117,7 +117,7 @@ All financial records are linked through foreign key relationships.
 
 
 
-## Deployment & Setup
+## ⚙️ Deployment & Setup
 Clone Repository
 git clone <repository-url>
 Configure Database
@@ -133,7 +133,7 @@ Access the application:
 
 http://localhost:8082/login.html
 
-## Screenshots
+## 📸 Screenshots
 
 📌 Replace the image paths below with actual screenshots inside your repository (recommended folder: /screenshots).
 
@@ -158,7 +158,7 @@ http://localhost:8082/login.html
 ![Budget Tracking](screenshots/budget.png)
 
 
-## Security Considerations
+## 🔐 Security Considerations
 
 User-specific data filtering implemented at backend
 
@@ -166,7 +166,7 @@ API-based data handling
 
 Planned enhancement: JWT-based authentication
 
-## Future Roadmap
+## 🚀 Future Roadmap
 
 JWT Security Integration
 
@@ -180,10 +180,10 @@ Mobile Responsive Enhancement
 
 AI-based financial insights
 
-## Author
+## 👨‍💻 Author
 
 Ch Anil Kumar
 
-## License
+## 📄 License
 
 This project is developed for academic and portfolio purposes.

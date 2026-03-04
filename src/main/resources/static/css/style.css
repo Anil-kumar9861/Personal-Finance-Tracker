@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #eef2f3, #dce3e9);
+}
+#logoutbtn {
+    position: relative;
+    bottom: -290px;
+    background-color: crimson;
+}
+.container {
+    width: 95%;
+    margin: 30px auto;
+}
+
+/* GRID LAYOUT */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* SUMMARY CARDS */
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+/* FORM SECTION */
+.section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* LISTS */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #334155;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* CHART CENTER */
+.chart-container {
+    width: 350px;
+    height: 350px;
+    margin: 20px auto;
+}
+
+/* TABLE STYLING */
+table {
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    transition: 0.2s;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.data-table th,
+.data-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table th {
+    background-color: #4caf50;
+    font-weight: 600;
+}
+
+.data-table tr:hover {
+    background-color: #f9fafb;
+}
+
+.dashboard-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: #1e293b;
+    color: white;
+    padding: 20px;
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.sidebar h3 {
+    margin-bottom: 5px;
+}
+
+.sidebar p {
+    font-size: 12px;
+    color: #cbd5e1;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    transition: 0.2s;
+}
+
+.menu li:hover {
+    background: #334155;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 300px;
+    flex: 1;
+    padding: 30px;
+    background: #f1f5f9;
+}
+.dashboard-layout {
+    display: flex;
+}
+
+/* FIXED SIDEBAR */
+.sidebar {
+    width: 250px;
+    height: 100vh;          /* Full screen height */
+    position: fixed;        /* 🔥 Makes it static while scrolling */
+    top: 0;
+    left: 0;
+    background: #1e293b;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;       /* Scroll if content too long */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+}

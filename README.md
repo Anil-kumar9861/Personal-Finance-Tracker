@@ -64,6 +64,7 @@ Visual progress tracking
 
 Budget exceeded alerts
 
+
 ## 🏗️ System Architecture
 
 The application follows a 3-Tier Architecture:
@@ -94,6 +95,7 @@ JPA/Hibernate ORM
 
 Relational mapping
 
+
 ## 🗄️ Database Structure
 Core Entities
 
@@ -118,6 +120,7 @@ All financial records are linked through foreign key relationships.
 
 
 ## ⚙️ Deployment & Setup
+
 Clone Repository
 git clone <repository-url>
 Configure Database
@@ -132,6 +135,7 @@ mvn spring-boot:run
 Access the application:
 
 http://localhost:8082/login.html
+
 
 ## 📸 Screenshots
 
@@ -166,6 +170,7 @@ API-based data handling
 
 Planned enhancement: JWT-based authentication
 
+
 ## 🚀 Future Roadmap
 
 JWT Security Integration
@@ -180,9 +185,11 @@ Mobile Responsive Enhancement
 
 AI-based financial insights
 
+
 ## 👨‍💻 Author
 
 Ch Anil Kumar
+
 
 ## 📄 License
 

@@ -151,12 +151,12 @@ http://localhost:8082/login.html
 
 🔐 Login Page
 ![Login Page](screenshots/login.png)
+📈 Registration Page
+![Registeration Page](screenshots/registration.png)
 📊 Dashboard Overview
 ![Dashboard](screenshots/dashboard.png)
 💰 Income & Expense Tables
 ![Transactions](screenshots/transactions.png)
-📈 Expense Pie Chart
-![Expense Chart](screenshots/chart.png)
 🎯 Budget Tracking
 ![Budget Tracking](screenshots/budget.png)
 🔐 Security Considerations
@@ -183,7 +183,7 @@ AI-based financial insights
 
 👨‍💻 Author
 
-Anil Kumar
+Ch Anil Kumar
 
 📄 License
 

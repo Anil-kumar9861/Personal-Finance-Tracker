@@ -1,6 +1,6 @@
-💼 Personal Finance Tracker
+# Personal Finance Tracker
 
-📖 Overview
+ ##Overview
 
 Personal Finance Tracker is a full-stack web application designed to help users efficiently manage their personal finances. The system enables structured tracking of income, expenses, and budgets while providing real-time financial summaries and visual insights.
 
@@ -115,24 +115,7 @@ One User → Multiple Budget entries
 
 All financial records are linked through foreign key relationships.
 
-🔌 REST API Endpoints
 
-Authentication
-
-POST /api/register
-POST /api/login
-
-Income
-POST /api/income/{email}
-GET  /api/income/{email}
-
-Expense
-POST /api/expenses/{email}
-GET  /api/expenses/{email}
-
-Budget
-POST /api/budget/{email}
-GET  /api/budget/{email}
 
 ⚙️ Deployment & Setup
 Clone Repository

@@ -64,6 +64,73 @@ Visual progress tracking
 
 Budget exceeded alerts
 
+Personal-Finance-Tracker/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── finance/
+│   │   │           ├── controller/
+│   │   │           │     ├── AuthController.java
+│   │   │           │     ├── IncomeController.java
+│   │   │           │     ├── ExpenseController.java
+│   │   │           │     └── BudgetController.java
+│   │   │           │
+│   │   │           ├── service/
+│   │   │           │     ├── UserService.java
+│   │   │           │     ├── IncomeService.java
+│   │   │           │     ├── ExpenseService.java
+│   │   │           │     └── BudgetService.java
+│   │   │           │
+│   │   │           ├── repository/
+│   │   │           │     ├── UserRepository.java
+│   │   │           │     ├── IncomeRepository.java
+│   │   │           │     ├── ExpenseRepository.java
+│   │   │           │     └── BudgetRepository.java
+│   │   │           │
+│   │   │           ├── model/
+│   │   │           │     ├── User.java
+│   │   │           │     ├── Income.java
+│   │   │           │     ├── Expense.java
+│   │   │           │     └── Budget.java
+│   │   │           │
+│   │   │           └── FinanceTrackerApplication.java
+│   │   │
+│   │   ├── resources/
+│   │   │   ├── static/
+│   │   │   │     ├── css/
+│   │   │   │     │     ├── style.css
+│   │   │   │     │     └── login.css
+│   │   │   │     │
+│   │   │   │     ├── js/
+│   │   │   │     │     ├── login.js
+│   │   │   │     │     ├── dashboard.js
+│   │   │   │     │     └── expense.js
+│   │   │   │     │
+│   │   │   │     ├── images/
+│   │   │   │     │     └── user.png
+│   │   │   │     │
+│   │   │   │     ├── login.html
+│   │   │   │     ├── register.html
+│   │   │   │     ├── dashboard.html
+│   │   │   │     └── transaction.html
+│   │   │   │
+│   │   │   └── application.properties
+│   │
+│   └── test/
+│
+├── screenshots/          
+│   ├── login.png
+│   ├── dashboard.png
+│   ├── transactions.png
+│   ├── chart.png
+│   └── budget.png
+│
+├── README.md
+├── pom.xml
+└── .gitignore
+
 ## 🏗️ System Architecture
 
 The application follows a 3-Tier Architecture:

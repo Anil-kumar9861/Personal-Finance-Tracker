@@ -124,8 +124,8 @@ Personal-Finance-Tracker/
 │   ├── login.png
 │   ├── dashboard.png
 │   ├── transactions.png
-│   ├── chart.png
 │   └── budget.png
+│   
 │
 ├── README.md
 ├── pom.xml
